@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500&display=swap');
+*{font-family: 'Roboto', sans-serif;}
+
+
+.ti{
+    height: 20%;
+}
+
+.titl{
+    text-align: center;
+    margin-top: 3%;
+    color:#1CB3FF;
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 50px;
+    width: 100%;
+}
+.titl-sub{
+    text-align: center;
+    margin-top: 0%;
+    color:#494949;
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 20px;
+    width: 100%;
+}
+.artic{
+    width: 80%;
+    text-align: center;
+    margin-left: 22%;
+    margin-top: 3%;
+}
+article{
+    width: 20%;
+    float: left;
+    margin-top: 3%;
+    padding: 18px;
+    font-family: 'Roboto Regular', sans-serif;
+}
+
+.se{
+    background-color:#fff;
+    position: relative;
+}
+.deberes{
+    margin-left:-50%;
+    margin-top:3%;
+    color:#494949;
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 50px;
+    width: 100%;
+}

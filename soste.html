@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sostenibilidad</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="sosteni.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>   
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Sostenibilidad</a></li>
+                <li><a href="#vs">Comparación</a></li>
+                <li><a href="#catt">Tipos</a></li>
+                <div class="container-1">
+                    <span class="icon"><i class="fa fa-search"></i></span>
+                    <input type="search" id="search" placeholder="Search..." />
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <section>
+         <div data-aos="fade-right" data-aos-duration="2000">
+                <div class="padre"> 
+                    <p class="LetraMas">
+                       <a class="mas">+</a> 
+                       Crecimiento
+                    </p>
+                </div>
+                <div class="padre" id="margenesFamilia"> 
+                     <p class="LetraMas">
+                        <a class="mas">+</a> 
+                        Economia
+                     </p>
+                 </div>
+                 <div class="padre"  id="margenesFamilia"> 
+                         <p class="LetraMas">
+                            <a class="mas">+</a> 
+                            Cuidado del ambiente
+                         </p>
+                 </div>
+                 <div class="padre"  id="margenesFamilia"> 
+                         <p class="LetraMas">
+                            <a class="mas">+</a> 
+                            Bienestar
+                         </p>
+                 </div>
+                 <div class="h"> 
+                 <img src="img/familia.png" class="h">
+                 </div>
+    </div>
+   
+    </section>
+
+    <section class="vs" id="vs">
+        <div class="chart">
+            <img src="img/chart.png">
+        </div>
+        <div class="titulo1f">Ahorro</div>
+        <div class="titulo2f">Gasolina 1Gal = 3.22 $USD</div>
+        <div class="titulo3f">Electrico 0.71 centavos KW</div>
+        <div class="imagenF">
+            <img src="img/foco.png">
+        </div>
+    </section>
+
+    <section class="cat" id="catt">
+            <img id="PrimeraImagen"src="img/ELECTRICO.png" alt="">
+            <div class="padre2">
+                <p class="fuenteConducionElectrica" data-aos="fade-left" data-aos-duration="3000">
+                    <a class="MarcadoConducionEletrica" >Conduccion totalmente eletrica</a> <br>
+                    Solo hay un motor eletrico, no tiene<br>
+                    motor de combustion interna.<br>
+                    La bateria se recarga enchuflando<br>
+                    el vehiculo a la red eletrica<br>
+                </p>
+            </div>
+            <div class="padre2">
+                    <p class="fuenteConducionElectrica2" data-aos="fade-left" data-aos-duration="3000">
+                        <a class="MarcadoConducionEletrica" >Conducción solo eléctrica</a> <br>
+                        a velocidades bajas o como apoyo en<br>
+                        la aceleración. El motor eléctrico <br>
+                        puede trabajar en serie, en paralelo <br>
+                        o mixto al motor de combustión.La <br>
+                        batería se recarga recuperando <br>
+                        energía en la frenada. 
+                    </p>
+            </div>
+            <img id="PrimeraImagen2" src="img/ENCUFABLE.png" alt="">
+            <img id="PrimeraImagen3"src="img/ENCUFABLE.png" alt="">
+            <div class="padre2">
+                <p class="fuenteConducionElectrica" data-aos="fade-left" data-aos-duration="3000">
+                    <a class="MarcadoConducionEletrica">Vehículo híbrido enchufable</a> <br>
+                    Posibilidad de conducción totalmente eléctrica<br>
+                    con una autonomía reducida (25-50 Km).<br>
+                    El motor eléctrico puede trabajar <br>
+                    en serie, en paralelo o mixto al motor<br>
+                    de combustión. La batería se <br>
+                    recarga enchufando el vehículo a <br>
+                    la red eléctrica.
+                </p>
+            </div>        
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

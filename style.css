@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:900&display=swap');
+
+body{
+    margin: 0;
+    overflow-x:hidden;
+}
+
+/* ------------------ Seccion del Header -------------------------------------*/
+
+header nav {
+    margin-bottom:10px;
+    width: 90%;
+    margin-left: 5%;
+    position: sticky;
+}
+
+header nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+
+header nav ul li {
+	float: left;
+}
+
+header nav ul li a {
+	display: block;
+	color:rgb(0, 0, 0,0.7);
+    text-decoration: none;
+    border-radius: 3px;
+    padding:5px   10px  5px   10px;
+    font-family: 'Roboto Regular', sans-serif;
+}
+
+header nav ul li a:hover{
+    background:#75A50E;
+    color:#ffffff;
+}
+
+header nav ul li a:active{
+    background:#75A50E;
+    color: #ffffff;
+}
+
+.container-1 input#search{
+    margin: 1px;
+    width: 200px;
+    height: 30px;
+    background: #ffffff;
+    border: none;
+    font-size: 10pt;
+    float: right;
+    color: #000000;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.container-1 input#search::-webkit-input-placeholder {
+    color: #65737e;
+}
+.container-1 input#search:-ms-input-placeholder {  
+    color: #65737e;  
+}
+.container-1 .icon{
+    position: absolute;
+    top: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    z-index: 1;
+    color: #4f5b66;
+  }
+
+/*-------------------Fin del header ------------------------------------------*/
+
+
+ /*-----------------Seccion Portada-------------------------------------------*/
+ 
+.titulo{
+    position: relative;
+    margin-top: 2%;
+    margin-left: 7%;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.imagen{
+    float: left;
+    margin-left: 40%;
+    margin-top: -5%;
+}
+.imagen img{
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+section {
+    background: var(--clr2);
+    padding: 0px 0px 8% 0px;
+    width: 100%;
+    border-radius: var(--border-radius);
+    position: relative;
+    margin: 10px 0 0 0;
+  }
+  
+  
+  section.contentbox .headline {
+    margin: 10px 0 !important;
+    max-width: 65%;
+  }
+  section.contentbox .text {
+    margin: 10px 0 !important;
+    max-width: 100%;
+  }
+  
+ /*-----------------Fin  Portada-------------------------------------------*/
+
+
+ /*-----------------Secion Sostenibilidad-------------------------------------------*/
+
+
+.sost{
+    background-image: url("img/verde.jpg");
+    height: 50%;
+    width: 100%;
+    float: left;
+    background-size: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.titulo2{
+    color: #F5F5F5;
+    margin-top: 2%;
+    margin-left: 50%;
+    font-family: 'Roboto Medium';
+    font-size: 50px;
+}
+.articulo{
+    color: #F5F5F5;
+    margin-top: 1%;
+    margin-left: 50%;
+    font-family: 'Roboto Light';
+    font-style: italic;
+    font-size: 30px;
+    width: 40%;
+}
+.btn-mas{
+    border: none;
+    padding: 10px 35px;
+    border-radius: 7px;
+    background-color: #D9D9D9;
+    text-decoration: none;
+    margin-left: 60%;
+    margin-top: 3%;
+    font-family: 'Roboto Medium';
+    font-size: 20px;
+}
+
+ /*-----------------fin Sostenibilidad-------------------------------------------*/
+
+ /*-----------------Autos Electricos-------------------------------------------*/
+ .autos{
+    position: relative;
+    height: 50%;
+ }
+ section .TituloAutos{
+    font-size: 60px;
+    margin-top: 55%;
+    font-family: 'Roboto Medium', sans-serif;
+    color:#1CB3FF; 
+    text-align: center;
+}
+.TituloAutos2{
+    color: gray;
+    font-size: 30px;
+    margin-top: 0%;
+    font-family: 'Roboto Ligth', sans-serif;
+    text-align: center;
+}
+.Numero{
+    font-family: 'Roboto Regular', sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    color: gray;
+}
+.Hibrido{
+    color: gray;
+    font-size: 30px;
+    font-family: 'Roboto Light', sans-serif;
+    float: left;
+    margin-top: 5%;
+    margin-left: 1%;
+
+}
+.Padre{
+    display: flex;
+    justify-content: center;
+}
+
+.EntreLosa{
+    color: gray;
+    font-size: 20px;
+    font-family: 'Roboto Regular', sans-serif;
+    margin-left: 68%;
+    margin-top: -1%;
+}
+
+.porcentajeParrajo{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: gray;
+    margin-left: 70%;
+    margin-top: -4%;
+}
+
+.fondoImagen{
+    background-color: #75A50E;
+    height: 30%;
+    width: auto;
+}
+.fondoImagen img{
+    height: 500px;
+    width: auto;
+    margin-top: -18%;
+    margin-left: -15%;
+}
+
+
+ /*-----------------fin Autos electricos-------------------------------------------*/
+
+
+
+ /*-----------------Buses electricos-------------------------------------------*/
+ .buses{
+     height: 50%;
+ }
+ .titulo3{
+    font-family: 'Roboto Medium', sans-serif;
+    position: relative;
+    margin-left: 7%;
+    margin-top: -2%;
+    font-size: 60px;
+    color: #808080;
+}
+
+.texto_1{
+    font-family: 'Roboto Regular', sans-serif;
+    position: relative;
+    margin-left:7%;
+    margin-top: 2%;
+    font-size: 20px;
+    height: 10px;
+    width: 450px;
+    float: left;
+    color: #808080;
+}
+
+._usuarios_movilizados{
+    font-family: 'Roboto Medium', sans-serif;
+    position: relative;
+    margin-left: 60%;
+    margin-top: 1%;
+    width: 30px;
+    font-size:60px;
+    color: #808080;
+}
+
+.usuarios_movilizados{
+    font-family: 'Roboto Light', sans-serif;
+    position: relative; 
+    margin-left: 60%;
+    margin-top: 0;
+    height: 15px;
+    width: 15%;
+    font-size: 18px;
+    color: #808080;
+}
+
+.imagen_bus{
+    position: relative;
+    display: block;
+    margin-top: -15%;
+    margin-left: -5%;
+}
+.imagen_bus img{
+    width: 70%;
+}
+
+.texto_2{
+    font-family: 'Roboto Regular', sans-serif;
+    position: relative;
+    margin-left: 60%;
+    margin-top: 1%;
+    height: 10px;
+    width: 30%;
+    font-size: 20px;
+    color: #808080;
+}
+
+.texto_3{
+    font-family: 'Roboto Regular', sans-serif;
+    position: relative;
+    margin-left: 60%;
+    margin-top: 5%;
+    height: 10px;
+    width: 30%;
+    font-size: 20px;
+    color: #808080;
+}
+
+.bold_1{
+    font-family: 'Roboto Medium', sans-serif;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 2%;
+    height: 10px;
+    width: 30%;
+    font-size: 60px;
+    color: #75A50E;
+}
+
+.mini_texto{
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 7px;
+    height: 15px;
+    width: 15px;
+    color: #75A50E;
+}
+
+
+ /*-----------------fin Buses electricos-------------------------------------------*/
+
+
+ /*---------------Seccion categorias----------------------------------------*/
+.cate{
+    background-image: url('img/solar.jpg');
+    height: 20%;
+    position: relative;
+    background-attachment: fixed;
+}
+ .fuente{
+    float: left;
+    margin-top: 10%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+}
+#fuente{
+    margin-right: 10%;
+}
+.padre{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+.padreBoton{
+    display: flex;
+    justify-content: center;
+    
+}
+#derechaBoton{
+    position: absolute;
+}
+#derechaBoton2{
+    position: absolute;
+    margin-top: 15%;
+    border-radius: 15%;
+}
+#derechaBoton3{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 20%;
+    border-radius: 15%;
+}
+.abuelo{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: aliceblue;
+    margin-left: 35%;
+    margin-top: 2%;
+    position: absolute;
+   
+}
+.Sobrino{
+    position: absolute;
+    margin-left: -20%;
+    margin-top: 15%;
+    border-radius: 15%;
+}
+
